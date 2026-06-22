@@ -1,5 +1,8 @@
 {
-    "name": "my-astro-app",
+    "name": "wilson-my-astro-app",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ]
     // Add your bindings here, e.g.:
     // "kv_namespaces": [{ "binding": "MY_KV", "id": "<namespace_id>" }]
 }

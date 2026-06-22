@@ -1,5 +1,5 @@
 ---
-
+import { ENV } from "varlock";
 ---
 
 <html lang="en">
@@ -12,6 +12,9 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>
+			This should work:
+			{ENV.EXAMPLE_ITEM}
+		</h1>
 	</body>
 </html>
