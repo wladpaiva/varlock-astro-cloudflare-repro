@@ -7,7 +7,7 @@ import { varlockCloudflareVitePlugin } from '@varlock/cloudflare-integration';
 // https://astro.build/config
 export default defineConfig({
     // this builds with an error
-    adapter: cloudflare(),
+    // adapter: cloudflare(),
     integrations: [varlockAstroIntegration()],
 
     // this fails as well
